@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <!-- CONTENEDOR -->
+    <div class="container">
+      <header>
+        <!-- NAVBAR -->
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"
+                  ><img
+                    class="img-fluid"
+                    src="img/firma_de_oriana-removebg-preview.png"
+                    alt="Logo Oriana Castillo"
+                    srcset="Image responsive"
+                /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#info">Informacion</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/reservar.html">Reservar Cita</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <!-- CAROUSEL -->
+        <div class="row">
+          <!-- Carousel -->
+          <div class="col-md-12 col-sm-12">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/woman-patient-at-dentist-min.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/cropped-image-happy-european-woman-brushes-teeth-holds-toothbrush-with-toothpaste-wears-wrapped-towel-head-has-healthy-fresh-skin-stands-naked-min.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/at-a-dentist-with-a-smile-min.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- INFORMACIÒN -->
+        <div class="row" id="info">
+          <div class="col-md-12 col-sm-12">
+            <h2 style="padding: 12px">Oriana Castillo</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-12 d-flex align-items-center">
+              <p class="text-center">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Praesentium itaque nam vero nesciunt? Praesentium ipsam odio
+                ipsum neque repellat voluptatem rerum, iusto architecto minus
+                porro, incidunt enim doloribus reiciendis saepe!
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/19955462_1902892176647556_2634964927177031680_n.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Odontologia General, Estética e Infantil
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 d-flex align-items-center">
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+                numquam aut magnam ullam dolores, officia impedit blanditiis,
+                neque nisi quam incidunt quae reiciendis repellat ex laboriosam
+                architecto. Autem, cupiditate! Iste.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- RESERVAR CITA -->
+        <div class="row" id="reservar">
+          <h2>Reservar Cita</h2>
+          <div class="col-md-12">
+            <h4>Informacion de la Consulta</h4>
+            <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+              consequatur hic rerum tempora tempore ex minima iusto assumenda
+              laboriosam ea, laborum sapiente dignissimos laudantium sint
+              blanditiis expedita repudiandae. Odit, ad?
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-12 d-grid gap-2 col-6 mx-auto">
+              <a href="reservar.html" class="btn-lg btn btn-outline-primary"> Reservar Cita</a>
+            </div>
+          </div>
+        </div>
+        <!-- CONTACTO -->
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Contacto</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <form action="php/contacto.php" method="POST">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">
+                    Dejame tu Número Telefonico
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="...."
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">
+                    ¿Como te puedo ayudar?
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <input
+                  type="button"
+                  class="btn btn-primary mb-3"
+                  value="Enviar"
+                />
+              </form>
+            </div>
+            <div class="col-md-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d981.8263110446511!2d-64.68733498902016!3d10.155824574553813!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1613523966297!5m2!1ses-419!2spe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-md-4">
+            <p>1</p>
+          </div>
+          <div class="col-md-4">
+            <p>2</p>
+          </div>
+          <div class="col-md-4">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/admin.html">Sistema</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="js/bootstrap.bundle.js"></script>
+</html>
